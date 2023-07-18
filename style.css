@@ -1,0 +1,153 @@
+.section4{
+    font-size:calc(2.65vw+24px) ;
+    font-weight: 500 ;
+    text-transform: uppercase;
+}
+.container{
+    display: flex;
+    gap: 51px;
+}
+
+.right-top h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 140%;
+}
+.right-cards{
+    display: grid;
+    grid-template-areas: "card1 card2"
+                         "card3 card4";
+    gap: 30px 20px;
+}
+.right-card:nth-child(1){
+    grid-area: card1;
+}
+.right-card:nth-child(2){
+    grid-area: card2;
+}
+.right-card:nth-child(3){
+    grid-area: card3;
+}
+.right-card:nth-child(4){
+    grid-area: card4;
+}
+
+
+
+.section5{
+    display: flex;
+    width: 578px;
+    flex-direction: column;
+    flex-shrink: 0;
+    
+
+}
+    
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #222222;
+    font-family:TT Hoves;
+}
+h2{
+    font-weight: 500;
+    font-size: calc(2.7vw+24px);
+    list-style: 117%;
+    text-transform: uppercase;
+    text-align: left;
+}
+p{
+ font-weight: 400;
+ font-size: calc(1vw+14.3px);
+ line-height: 140%;
+}
+.main-wraper{
+margin:0 calc(10.6vw-17.9px)
+}
+.diploma-page-wraper{
+    display:inline-grid;
+    gap: 20px;
+    grid-template-columns: calc(12.2vw+274px)auto;
+    grid-template-rows: repeat(2,auto);
+    margin:0 auto calc(11vw+18.6px)
+}
+.diploma-image{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+.diploma-image img{
+    width: 100%;
+}
+.diploma-page-wraper h2{ 
+    margin: 0;
+
+}
+@media (max-width:1100px) {.diploma-page-wraper{
+    grid-template-columns: minmax(calc  (12.2vw+274px),auto);
+    grid-template-rows: repeat(3,auto);
+}
+.diploma-image{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+    
+}
+.salary-page-wraper h2{
+    margin-bottom: calc(2.2vw+11.7px);
+}
+.salary-page-wraper p{
+    margin:0 0 calc(1.8vw+13.37px) 0;
+}
+.salary-page-wraper img{
+    display: block;
+    margin: 0 auto;
+    width: calc(81.4vw+22.6px);
+}
+.section3{
+    font-family: TT Hoves;
+font-size: 58px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.58px;
+text-transform: uppercase;
+}
+
+.border {
+  border:2px solid black ;
+  padding: calc(2.6vw+6px) calc(4.9vw+2px);
+
+}
+h2{
+ font-size:calc(2.7vw +24px) ;   
+ font-weight: 500 ;
+ letter-spacing:0.58px ;
+ text-transform: uppercase;
+ margin: calc(1.7vw+17px)0;
+
+}
+.lessons{
+
+}
+.lesson{
+width: 928px;
+font-family: TT Hoves;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 29.4px */
+border-bottom: 1px;
+   }
+
+.center{
+    margin: 0;
+
+}
+
+.desktop{
+
+}
